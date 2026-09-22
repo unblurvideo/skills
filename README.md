@@ -33,4 +33,4 @@ Uses existing UnblurVideo credits. A 3-second preview costs 6 credits. Full-vide
 
 Installing the skill is free. Product calls follow the site's account, authorization and billing rules. For setup and product support, see [the documentation](https://unblurvideo.com/docs/agents).
 
-Skill source version: 0.1.0. MIT licensed; see [LICENSE](LICENSE).
+Skill source version: 0.2.0. MIT licensed; see [LICENSE](LICENSE).

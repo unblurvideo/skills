@@ -25,7 +25,7 @@ Installation does not authenticate. Run `unblurvideo --help` for commands.
    authorization already given. Preview and full enhancement use the same
    processing capability; results may not restore missing detail.
 4. Call `unblurvideo_enhance` with the accepted credits, policy revision and a
-   stable `request_id` for this intended job. Keep the returned task ID.
+   stable `request_id` saved before sending this intended job. Missing IDs are rejected. Reuse it after a lost response; keep the returned task ID.
 5. Poll `unblurvideo_job` by task ID, with pauses between checks. Reconnect and
    query that same ID after a connection loss. A second authorized client for
    the same account can resume the task. Report the actual settlement and
